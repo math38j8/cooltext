@@ -1,0 +1,30 @@
+body {
+  background-color: slategrey;
+}
+
+.ani {
+  animation: ani_kf 1s 1 ease-in forwards;
+}
+
+#cooltext {
+  margin-left: 23vw;
+  margin-top: 34vw;
+}
+
+@keyframes ani_kf {
+  0% {
+    opacity: 0%;
+    transform: translateY(20vw);
+  }
+  90% {
+    transform: translateY(-5vw);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0vw);
+  }
+}
+
+span {
+  display: inline-block;
+}
