@@ -3,12 +3,12 @@ body {
 }
 
 .ani {
-  animation: ani_kf 1s 1 ease-in forwards;
+  animation: ani_kf 1s 1 ease-out forwards;
 }
 
 #cooltext {
-  margin-left: 23vw;
-  margin-top: 34vw;
+  margin-left: 30vw;
+  margin-top: 20vw;
 }
 
 @keyframes ani_kf {
@@ -17,7 +17,7 @@ body {
     transform: translateY(20vw);
   }
   90% {
-    transform: translateY(-5vw);
+    transform: translateY(-3vw);
   }
   100% {
     opacity: 100%;

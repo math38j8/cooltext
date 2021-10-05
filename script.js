@@ -34,7 +34,7 @@ function startAnimation() {
         }
                 console.log(i);
                  elm.classList.add("ani");
-                elm.style.animationDelay = `${i/60}s`;
+                elm.style.animationDelay = `${i/70}s`;
             });
 };
 
